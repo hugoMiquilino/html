@@ -1,0 +1,168 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100dvh;
+}
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #008f8f;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        padding: 15px 10px;
+    }
+
+    ul li:hover {
+        background-color: #2ca0a0;
+        cursor: pointer;
+    }
+}
+
+.atual {
+    background-color: #056c6c;
+}
+
+.header {
+    background-color: #056c6c;
+    min-height: 150px;
+    align-content: center;
+
+    h1 {
+        color: #fff;
+        text-align: left;
+        font-size: 3rem;
+        padding: 0 50px;
+    }
+
+    img {
+        width: 300px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.content {
+    background-color: #fff;
+    min-height: 50vh;
+    padding: 20px;
+    font-size: .8em;
+
+    h2 {
+        color: #056c6c;
+    }
+
+    strong {
+        color: #056c6c;
+    }
+}
+
+.content table,
+tr,
+td {
+    border: 1px solid #056c6c;
+}
+
+.content thead th {
+    padding: 10px 70px;
+    background-color: #056c6c;
+    color: #fff;
+}
+
+.content tbody td {
+    padding: 5px;
+}
+
+#contatos {
+    padding: 15px 0;
+}
+
+#map {
+    padding: 15px 0;
+
+    iframe {
+        height: 50vh;
+        width: 100%;
+    }
+
+}
+
+#formulario {
+    padding: 15px 0;
+    max-width: 400px;
+}
+
+#formulario .row {
+    margin: 5px 0;
+
+    input {
+        padding: 5px 200px 5px 5px;
+    }
+
+    textarea {
+        padding: 5px 200px 50px 5px;
+    }
+}
+
+#formulario button {
+    margin: 10px 12px;
+    padding: 10px 60px;
+    border: none;
+    background-color: #2ca0a0;
+    color: #fff;   
+}
+
+#formulario button:hover {
+    cursor: pointer;
+    background-color: #056c6c;
+}
+
+.footer {
+    background-color: #a38cf0;
+    min-height: 80px;
+    font-size: .6em;
+    align-content: center;
+
+    p {
+        text-align: end;
+        padding: 0 20px;
+        color: #fff
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
